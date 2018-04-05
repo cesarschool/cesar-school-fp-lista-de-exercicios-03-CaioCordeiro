@@ -1,6 +1,6 @@
 # Lista de Exercícios 2 - GitHub Classroom
 
-# ===>>> Entrega: Até às 23h59 da Terça-Feira, 10 de Março <<<===
+===>>> Entrega: Até às 23h59 da Terça-Feira, 10 de Março <<<===
 
 Para esta lista você precisará escrever 8 programas que devem ser salvos independentemente como seu próprio arquivo ".py". O nome do arquivo que você deve usar para cada programa deve seguir este padrão:
 
