@@ -1,12 +1,12 @@
 # Lista de Exercícios 2 - GitHub Classroom
 
-===>>> Entrega: Até às 23h59 da Terça-Feira, 10 de Março <<<===
+# ===>>> Entrega: Até às 23h59 da Terça-Feira, 10 de Março <<<===
 
 Para esta lista você precisará escrever 8 programas que devem ser salvos independentemente como seu próprio arquivo ".py". O nome do arquivo que você deve usar para cada programa deve seguir este padrão:
 
-questao_X.py
+>> questao_X.py
 
->> Onde o X no final é o número da questão.
+Onde o X no final é o número da questão.
 
 Os arquivos que devem ser usados para a resolução de cada questão já foram criados na pasta /questoes. Cada arquivo contém um comentário com a descrição do problema a ser resolvido.
 As respostas das questões devem ser desenvolvidas dentro da função main() de cada arquivo!!! Deve-se substituir o comado print existente pelo código da solução. 
