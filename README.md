@@ -27,3 +27,69 @@ Use nomes e comentários de variável significativos para explicar o que seu có
 Teste seu código! Experimente diferentes conjuntos de valores de entrada para garantir que seu programa faça a coisa certa em diferentes casos.
 
 NÃO ESQUEÇA DE MANTER A ESTRUTURA DE ARQUIVOS E PASTAS INALTERADA. ALTERE APENAS O CONTEÚDO DOS ARQUIVOS DAS QUESTÕES E SALVE COM O MESMO NOME. ISSO GARANTIRÁ A CORRETA EXECUÇÃO DOS TESTES APÓS A SUBMISSÃO. O PROFESSOR AGRADECE.
+
+
+-----------------------------------------------------------------------------------------------------------
+
+## QUESTÃO 1 ##
+# Faça um programa que receba cinco inteiros e diga qual deles é o maior e qual o menor.
+##
+
+## QUESTÃO 2 ##
+# Uma forma de avaliar se uma pessoa está acima do peso é através do calculo do índice IMC. 
+# Se o valor do IMC estiver acima de 25, significa que a pessoa está acima do peso. 
+# A fórmula é: IMC = Peso(Kg) / (Altura(m)*Altura(m)). Com base na altura e peso fornecido no 
+# console exiba uma mensagem determinando se uma pessoa está acima do peso.
+##
+
+## QUESTÃO 3 ##
+# Implementar um programa que calcula o desconto previdenciário de um funcionário. 
+# O programa deve, dado um salário, retornar o valor do desconto proporcional ao mesmo. 
+# O cálculo de desconto segue a regra: o desconto deve 11% do valor do salário, entretanto, 
+# o valor máximo de desconto é 318,20.
+# Sendo assim, ou o programa retorna 11% sobre o salário ou 318,20.
+##
+
+## QUESTÃO 4 ##
+# Escreva um programa para aprovar o empréstimo bancário para compra de uma casa. 
+# O programa deve perguntar o valor da casa a comprar, o salário e a quantidade de anos 
+# a pagar. O valor da prestação mensal não pode ser superior a 30% do salário. Calcule o 
+# valor da prestação como sendo o valor da casa a comprar dividido pelo número de 
+# meses a pagar.
+##
+
+## QUESTÃO 5 ##
+# Escreva um programa que leia as medidas	dos	lados de um triângulo e escreva se ele é 
+# Equilátero, Isósceles ou Escaleno.
+##
+
+## QUESTÃO 6 ##
+# Escreva um programa que calcule a porcentagem de nucleotídeos A, C, G e T em 
+# uma cadeia de DNA informada pelo usuário. Indicar também a quantidade e a 
+# porcentagem de nucleotídeos inválidos.
+##
+
+## QUESTÃO 7 ##
+# A maioria dos anos tem 365 dias. No entanto, o tempo necessário para a Terra orbitar 
+# o Sol é na verdade um pouco mais que isso. Como resultado, um dia extra, 29 de fevereiro, 
+# está incluído em alguns anos para corrigir essa diferença. Esses anos são referidos como 
+# anos bissextos. As regras para determinar se um ano é ou não um ano bissexto seguem:
+# • Qualquer ano que seja divisível por 400 é um ano bissexto.
+# • Dos anos restantes, qualquer ano que seja divisível por 100 não é um ano bissexto.
+# • Dos anos restantes, qualquer ano que seja divisível por 4 é um ano bissexto.
+# • Todos os outros anos não são anos bissextos.
+# Escreva um programa que leia um ano do usuário e exiba uma mensagem indicando 
+# se é ou não um ano bissexto.
+##
+
+## QUESTÃO 8 ##
+# Escreva um programa que leia uma data do usuário e calcule seu sucessor imediato.
+# Por exemplo, se o usuário inserir valores que representem 2013-11-18, seu programa 
+# deve exibir uma mensagem indicando que o dia imediatamente após 2013-11-18 é 
+# 2013-11-19. Se o usuário inserir valores que representem 2013-11-30, o programa deve 
+# indicar que o dia seguinte é 2013-12-01. Se o usuário inserir valores que representem 
+# 2013-12-31 então o programa deve indicar que o dia seguinte é 2014-01-01. A data 
+# será inserida em formato numérico com três instruções de entrada separadas; 
+# uma para o ano, uma para o mês e uma para o dia. Certifique-se de que o seu programa 
+# funciona corretamente para anos bissextos.
+##
