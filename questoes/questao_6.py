@@ -1,6 +1,9 @@
-## QUESTÃO 1 ##
-# Faça um programa que receba cinco inteiros e diga qual deles é o maior e qual o menor.
+## QUESTÃO 6 ##
+# Escreva um programa que calcule a porcentagem de nucleotídeos A, C, G e T em 
+# uma cadeia de DNA informada pelo usuário. Indicar também a quantidade e a 
+# porcentagem de nucleotídeos inválidos.
 ##
+
 
 ##
 # A sua resposta da questão deve ser desenvolvida dentro da função main()!!! 
@@ -9,9 +12,9 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 1")
+    print("questao 6")
+
+
     
-
-
 if __name__ == '__main__':
     main()
