@@ -1,6 +1,8 @@
-## QUESTÃO 1 ##
-# Faça um programa que receba cinco inteiros e diga qual deles é o maior e qual o menor.
+## QUESTÃO 5 ##
+# Escreva um programa que leia as medidas dos lados de um triângulo e escreva se ele é 
+# Equilátero, Isósceles ou Escaleno.
 ##
+
 
 ##
 # A sua resposta da questão deve ser desenvolvida dentro da função main()!!! 
@@ -9,9 +11,9 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 1")
+    print("questao 5")
+
+
     
-
-
 if __name__ == '__main__':
     main()
