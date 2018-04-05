@@ -1,5 +1,4 @@
-# fp-lista-02
-Lista de Exercícios 2 - GitHub Classroom
+# Lista de Exercícios 2 - GitHub Classroom
 
 ===>>> Entrega: Até às 23h59 da Terça-Feira, 10 de Março <<<===
 
