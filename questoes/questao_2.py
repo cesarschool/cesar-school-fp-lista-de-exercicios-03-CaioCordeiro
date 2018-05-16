@@ -1,8 +1,22 @@
 ## QUESTÃO 2 ##
-# Uma forma de avaliar se uma pessoa está acima do peso é através do calculo do índice IMC. 
-# Se o valor do IMC estiver acima de 25, significa que a pessoa está acima do peso. 
-# A fórmula é: IMC = Peso(Kg) / (Altura(m)*Altura(m)). Com base na altura e peso fornecido no 
-# console exiba uma mensagem determinando se uma pessoa está acima do peso.
+#
+# Escreva um programa para calcular a frequencia das palavras de uma entrada. 
+# A saída deve mostrar a frequencia depois de ordenar a chave alfanumericamente.
+# Suponha que a seguinte entrada seja fornecida ao programa:
+#     New to Python or choosing between Python 2 and Python 3? Read Python 2 or Python 3.
+#
+# Então, a saída deve ser:
+# 2:2
+# 3.:1
+# 3?:1
+# New:1
+# Python:5
+# Read:1
+# and:1
+# between:1
+# choosing:1
+# or:2
+# to:1
 ##
 
 
