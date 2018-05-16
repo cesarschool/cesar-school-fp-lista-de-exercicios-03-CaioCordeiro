@@ -5,11 +5,8 @@ from questoes import questao_2
 from questoes import questao_3
 from questoes import questao_4
 from questoes import questao_5
-from questoes import questao_6
-from questoes import questao_7
-from questoes import questao_8
 
-numero_de_questoes = 8
+numero_de_questoes = 5
 
 while True:
     try:
@@ -31,11 +28,5 @@ while True:
         questao_4.main()
     elif questao == 5:
         questao_5.main()
-    elif questao == 6:
-        questao_6.main()
-    elif questao == 7:
-        questao_7.main()
-    elif questao == 8:
-        questao_8.main()
     else:
-        print("Questao invalida!!! Digite um valor entre 1 e 8!")
+        print("Questao invalida!!! Digite um valor entre 1 e 5!")
