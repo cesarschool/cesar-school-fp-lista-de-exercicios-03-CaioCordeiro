@@ -1,6 +1,6 @@
 # Lista de Exercícios 2 - GitHub Classroom
 
-===>>> Entrega: Até às 23h59 da Terça-Feira, 10 de Março <<<===
+===>>> Entrega: Até às 23h59 da Segunda-Feira, 21 de Maio <<<===
 
 Para esta lista você precisará escrever 8 programas que devem ser salvos independentemente como seu próprio arquivo ".py". O nome do arquivo que você deve usar para cada programa deve seguir este padrão:
 
@@ -28,60 +28,137 @@ Teste seu código! Experimente diferentes conjuntos de valores de entrada para g
 
 NÃO ESQUEÇA DE MANTER A ESTRUTURA DE ARQUIVOS E PASTAS INALTERADA. ALTERE APENAS O CONTEÚDO DOS ARQUIVOS DAS QUESTÕES E SALVE COM O MESMO NOME. ISSO GARANTIRÁ A CORRETA EXECUÇÃO DOS TESTES APÓS A SUBMISSÃO. O PROFESSOR AGRADECE.
 
+IMPORTANTE: Receba as entradas e imprima os resultados EXATAMENTE conforme solicitado. Caso os os formatos de entrada e saída não estejam conforme solicitado, os testes falharão e a nota para a questão não será computada.
+
 
 -----------------------------------------------------------------------------------------------------------
 
 ## QUESTÃO 1 ##
-Faça um programa que receba cinco inteiros e diga qual deles é o maior e qual o menor.
+Um site exige que os usuários insiram nome de usuário e senha para se registrarem. 
+Escreva um programa para verificar se a senha digitada pelos usuários é forte o suficiente.
+A seguir estão os critérios para verificar a senha:
+1. Pelo menos uma letra entre [a-z]
+2. Pelo menos 1 número entre [0-9]
+3. Pelo menos uma letra entre [A-Z]
+4. Pelo menos 1 caractere de [$ # @]
+5. Comprimento mínimo da senha: 6
+6. Comprimento máximo da senha: 12
+Seu programa deve aceitar uma sequência de senhas separadas por vírgula e as verificará 
+de acordo com os critérios acima. As senhas que correspondem aos critérios devem ser 
+impressas, separadas por uma vírgula.
+Exemplo
+Se as seguintes senhas forem fornecidas como entrada para o programa:
+ABd1234 @ 1, um F1 #, 2w3E *, 2We3345
+Então, a saída do programa deve ser:
+ABd1234 @ 1
 
 ## QUESTÃO 2 ##
-Uma forma de avaliar se uma pessoa está acima do peso é através do calculo do índice IMC. 
-Se o valor do IMC estiver acima de 25, significa que a pessoa está acima do peso. 
-A fórmula é: IMC = Peso(Kg) / (Altura(m)*Altura(m)). Com base na altura e peso fornecido no 
-console exiba uma mensagem determinando se uma pessoa está acima do peso.
+Escreva um programa para calcular a frequencia das palavras de uma entrada. 
+A saída deve mostrar a frequencia depois de ordenar a chave alfanumericamente.
+Suponha que a seguinte entrada seja fornecida ao programa:
+New to Python or choosing between Python 2 and Python 3? Read Python 2 or Python 3.
+Então, a saída deve ser:
+2:2
+3.:1
+3?:1
+New:1
+Python:5
+Read:1
+and:1
+between:1
+choosing:1
+or:2
+to:1
 
 ## QUESTÃO 3 ##
-Implementar um programa que calcula o desconto previdenciário de um funcionário. 
-O programa deve, dado um salário, retornar o valor do desconto proporcional ao mesmo. 
-O cálculo de desconto segue a regra: o desconto deve 11% do valor do salário, entretanto, 
-o valor máximo de desconto é 318,20.
-Sendo assim, ou o programa retorna 11% sobre o salário ou 318,20.
+Um robô se move em um plano a partir do ponto original (0,0). O robô pode se 
+mover nas direções CIMA, BAIXO, ESQUERDA e DIREITA de acordo com um 
+passo fornecido. O traço do movimento do robô é mostrado da seguinte forma:
+
+CIMA 5
+BAIXO 3
+ESQUERDA 3
+DIREITA 2
+
+Os números após a direção são passos. 
+Escreva um programa para calcular a distância entre a posição atual e o 
+ponto original após uma seqüência de movimentos. Se a distância for um 
+float, basta imprimir o inteiro mais próximo.
+Exemplo:
+Se as seguintes tuplas são dadas como entrada para o programa:
+
+CIMA 5
+BAIXO 3
+ESQUERDA 3
+DIREITA 2
+
+Então, a saída do programa deve ser:
+2
+ 
+Dicas:
+As entradas devem ser lidas do console até que um valor vazio seja digitado. 
+A saída deve ser um inteiro que representa a distancia para o ponto original. 
+Entradas inválidas devem ser descartadas da contagem.
 
 ## QUESTÃO 4 ##
-Escreva um programa para aprovar o empréstimo bancário para compra de uma casa. 
-O programa deve perguntar o valor da casa a comprar, o salário e a quantidade de anos 
-a pagar. O valor da prestação mensal não pode ser superior a 30% do salário. Calcule o 
-valor da prestação como sendo o valor da casa a comprar dividido pelo número de 
-meses a pagar.
+Você foi solicitado a escrever um programa para classificar tuplas (nome, idade, altura) 
+por ordem crescente, em que nome é uma string, idade e altura são números. As tuplas
+são inseridas pelo console. O critério de classificação é:
+
+1: Ordenar com base no nome;
+2: Em seguida, classifique com base na idade;
+3: Em seguida, classifique por pontuação.
+
+A prioridade é essa nome > idade > pontuação.
+ 
+Se as seguintes tuplas são dadas como entrada para o programa:
+Tom 19,80
+João, 20,90
+Jony, 17,91
+Jony, 17,93
+Json, 21,85
+
+Então, a saída do programa deve ser:
+[('John', '20', '90'), ('Jony', '17', '91'), ('Jony', '17', '93'), ('Json', '21 ',' 85 '), (' Tom ',' 19 ',' 80 ')]
+
+Dicas:
+As entradas devem ser lidas do console até que um valor vazio seja digitado. 
+A saída deve ser impressa no formato apresentado acima.
+Valores inválidos (fora do formato esperado para uma tupla) devem ser descartados.
 
 ## QUESTÃO 5 ##
-Escreva um programa que leia as medidas	dos	lados de um triângulo e escreva se ele é 
-Equilátero, Isósceles ou Escaleno.
+Crie uma implementação da cifra rotacional, às vezes também chamada de cifra de César.
+ 
+A cifra de César é uma simples cifra de deslocamento que se baseia na transposição 
+de todas as letras do alfabeto usando uma chave inteira entre 0 e 26. 
+O uso da chave 0 ou 26 sempre produzirá a mesma saída devido à aritmética modular. 
+A letra é deslocada para tantos valores quanto o valor da chave.
 
-## QUESTÃO 6 ##
-Escreva um programa que calcule a porcentagem de nucleotídeos A, C, G e T em 
-uma cadeia de DNA informada pelo usuário. Indicar também a quantidade e a 
-porcentagem de nucleotídeos inválidos.
+A notação geral para cifras rotacionais é ROT + <chave>. A cifra rotacional mais comumente usada é a ROT13.
 
-## QUESTÃO 7 ##
-A maioria dos anos tem 365 dias. No entanto, o tempo necessário para a Terra orbitar 
-o Sol é na verdade um pouco mais que isso. Como resultado, um dia extra, 29 de fevereiro, 
-está incluído em alguns anos para corrigir essa diferença. Esses anos são referidos como 
-anos bissextos. As regras para determinar se um ano é ou não um ano bissexto seguem:
- • Qualquer ano que seja divisível por 400 é um ano bissexto.
- • Dos anos restantes, qualquer ano que seja divisível por 100 não é um ano bissexto.
- • Dos anos restantes, qualquer ano que seja divisível por 4 é um ano bissexto.
- • Todos os outros anos não são anos bissextos.
- Escreva um programa que leia um ano do usuário e exiba uma mensagem indicando 
- se é ou não um ano bissexto.
+Um ROT13 no alfabeto latino seria o seguinte:
+ Normal: abcdefghijklmnopqrstuvwxyz
+ Cifrado: nopqrstuvwxyzabcdefghijklm
 
-## QUESTÃO 8 ##
- Escreva um programa que leia uma data do usuário e calcule seu sucessor imediato.
- Por exemplo, se o usuário inserir valores que representem 2013-11-18, seu programa 
- deve exibir uma mensagem indicando que o dia imediatamente após 2013-11-18 é 
- 2013-11-19. Se o usuário inserir valores que representem 2013-11-30, o programa deve 
- indicar que o dia seguinte é 2013-12-01. Se o usuário inserir valores que representem 
- 2013-12-31 então o programa deve indicar que o dia seguinte é 2014-01-01. A data 
- será inserida em formato numérico com três instruções de entrada separadas; 
- uma para o ano, uma para o mês e uma para o dia. Certifique-se de que o seu programa 
- funciona corretamente para anos bissextos.
+Exemplos:
+Entrada: ROT5 omg 
+ Saída: trl
+Entrada: ROT0 c 
+ Saída: c
+Entrada: ROT26 Cool 
+ Saída: Cool
+Entrada: ROT13 The quick brown fox jumps over the lazy dog. 
+ Saída: Gur dhvpx oebja sbk whzcf bire gur ynml qbt.
+Entrada: ROT13 Gur dhvpx oebja sbk whzcf bire gur ynml qbt. 
+ Saída: The quick brown fox jumps over the lazy dog.
+
+Se um valor de entrada inválido for digitado, a seguinte mensagem 
+deve ser impressa: 'Erro'. 
+Entradas inválidas podem ser entradas que contém códigos de rotações 
+inválidos ou mensagens contendo caracteres que não estão no alfabeto. 
+Exemplos:
+Entrada: RARA abc Saída: Erro
+Entrada: ROT5 c99 Saída: Erro
+
+As entradas devem ser sempre compostas por ROT + <chave> + ' ' + 'mensagem', 
+ou seja, a cifra rotacional e a mensagem a ser cifrada separados por vírgula.
